@@ -1,0 +1,239 @@
+
+ 
+
+
+.im{
+display: flex;
+    width: 103px!important;
+    height: 105px!important;
+    overflow: hidden;
+}
+
+
+.justify-content-center {
+    justify-content: center!important;
+    flex-wrap: wrap!important;
+}
+
+table.table-3 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+table.table-3 tr {
+        background-color: #f8f8f8;
+}
+
+table.table-3 th,
+table.table-3 td {
+        text-align: center;
+        padding: 2px;
+    border: 1px solid #ddd;
+}
+@media screen and (max-width: 600px) {
+    table.table-3 {
+        border: 0;
+    }
+
+  
+  
+    table.table-3 thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+  
+    table.table-3 tr {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        margin-bottom: 30px;
+    }
+  
+    table.table-3 td {
+        display: block;
+        text-align: right;
+    }
+  
+    table.table-3 td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+  
+    table.table-3 td:last-child {
+        border-bottom: 0;
+    }
+
+   #content{
+    width: 99%;
+    margin: 20px auto;
+    border: 1px solid #cbcbcb;
+    display: flex;
+    flex-direction: inherit;
+    flex-wrap:wrap;
+   }
+   form{
+
+    position: relative;
+    width: 50%;
+ 
+   }
+   form div{
+    margin-top: 5px;
+   }
+   #img_div{
+    width: 40%;
+    padding: 5px;
+    margin: 15px auto;
+    border: 1px solid #cbcbcb;
+   }
+   #img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+   }
+
+    td.img {
+    /* float: left; */
+    margin: 0 auto;
+    /* width: 40%; */
+    /* height: 20%; */
+ max-width: 100%;
+ max-height: 100%;
+   }
+
+   body{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+ 
+    box-sizing: border-box;
+   }
+
+   .imagee img{
+    width: 35px;
+    height: 27px;
+ 
+   }
+
+
+table.table-2 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+table.table-2 tr {
+    background-color: #f8f8f8;
+}
+table.table-2 th, table.table-2 td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+table.table-2 th{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    table.table-2 tr{
+        display: block;
+    }
+    table.table-2 tr{
+        margin-bottom: 30px;
+    }
+    table.table-2 th, table.table-2 td{
+        display: block;
+        text-align: center;
+    }
+}
+.pagination>.active>a, 
+.pagination>.active>a:focus,
+ .pagination>.active>a:hover, 
+.pagination>.active>span,
+ .pagination>.active>span:focus, 
+.pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #b7339d;
+    border-color: #337ab7;
+}
+td.center {
+  
+ 
+}
+#livesearch{
+    border: none;
+    z-index: 9999;
+    position: absolute;
+    background-color: white;
+}
+
+ul{border:0; margin:0; padding:0;}
+
+ul.pagination {
+    display: inline-flex;
+    align-items: center;
+}
+.pagination li{
+border:0; margin:0; padding:0;
+font-size:15px;
+list-style:none;
+margin-top: 12px;
+}
+.pagination a{
+border:solid 1px #DDDDDD;
+margin-right:2px;
+}
+.pagination .previous,
+.pagination .next {
+color:#666666;
+display:block;
+float:left;
+font-weight:bold;
+padding:3px 4px;
+
+}
+.pagination .next a,
+.pagination .previous a {
+font-weight:bold;
+border:solid 1px #FFFFFF;
+}
+.pagination .current{
+color:#ff0084;
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+
+}
+.pagination a:link,
+.pagination a:visited {
+color:#0063e3;
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+.pagination a:hover{
+border:solid 1px #666666;
+}
+td.vibor{
+      display: block;
+font-size: 14px!important;
+height: 31px;
+font-weight: bold;
+        line-height: 2em;
+        padding: 0!important;
+        margin: 0!important;
+
+ }
+
